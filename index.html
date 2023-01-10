@@ -6,16 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script defer src="https://unpkg.com/alpinejs"></script>
+    <style>
+        .menu {
+            position: fixed; /* reste en place lors du défilement */
+            top: 0; /* fixe le menu en haut de la page */
+            left: 0;
+            width: 100vw; /* largeur de la fenêtre */
+            height: 100vh; /* hauteur de la fenêtre */
+            background: #fff; /* couleur de fond */
+            display: grid; /*grille (pour centrer) */
+            place-content: center; /*alignement au centre (V et H) */        
+        }
+        .header__menuBtn {
+            position: relative; /* pour appliquer z-index */
+            z-index: 10; /* pour que bouton soit au dessus du menu */
+        }
+    </style>
 </head>
 <body>
     <!-- https://emmet.io/ -->
     <!-- header>h1{Test de menu} -->
     <header>
-        <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen">
+        <button aria-controls="mainNav" 
+        @click="menuIsOpen = ! menuIsOpen"
+        class="header__menuBtn"
+        >
             menu
         </button>
         <h1>Test de menu</h1>
-        <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms>
+        <nav id="mainNav" 
+        x-show="menuIsOpen" 
+        x-transition.duration.800ms
+        class="menu"
+        >
             <ul>
                 <li><a href="#">item 1</a></li>
                 <li><a href="#">item 2</a></li>
