@@ -62,22 +62,3 @@
             .carrousel_btn-apres {
             right: 0;
             }
-            /* en vrac :
-            0 0 1rem display center flex gap 
-            justify-content list-style margin none padding
-            */
-            .caroussel_liste-liens {
-            /* aligne horizontalement les enfants */
-            display: flex; 
-            /* centre horizontalement les enfants */
-            flex: center; 
-            /* enlève les marges par défaut */
-            margin: 0; 
-            /* enlève les padding par défaut */
-            padding: 0; 
-            /* enlève les puces par défaut */
-            list-style: none;
-            /* espace entre les enfants */
-            justify-content: space-between;
-            gap: 1rem;
-            }
