@@ -122,7 +122,7 @@
     <main>
         
         <div class="carrousel" x-data="{}">
-            <button class="carrousel_btn carrousel_btn-avant" aria-label="slide précedant"></button><button class="carrousel_btn carrousel_btn-apres" aria-label="slide suivant">></button>
+            <button @click="$refs.parent.scrollLeft -= $refs.parent.clientWidth" class="carrousel_btn carrousel_btn-avant" aria-label="slide précedant" > < </button><button @click="$refs.parent.scrollLeft += $refs.parent.clientWidth" class="carrousel_btn carrousel_btn-apres" aria-label="slide suivant" >></button>
             <div class="carrousel_parent-ecrans" x-ref="parent">
                 <div id="ecran-1" class="carrousel_ecran">
                     <figure>
