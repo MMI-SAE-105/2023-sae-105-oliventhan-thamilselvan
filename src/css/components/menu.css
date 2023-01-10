@@ -21,6 +21,7 @@
     margin-top: 0;
     background-color: #C6AE7F;
     scale: 70%;
+    border: none;
 }
 .menu_titles {
     list-style: none;
@@ -43,3 +44,4 @@
 .noscroll body {
     overflow: hidden;
 }
+

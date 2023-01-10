@@ -11,6 +11,7 @@
 
 .text_logo {
     font-family: Voltaire;
+    color: black;
     font-size: 26px;
     text-decoration: none;
     margin-left: 5px;
@@ -20,6 +21,6 @@
 .flag_en {
     width: 35.5px;
     height: 24px;
-    margin-top: 5.3%;
+    margin-top: 7.3%;
     margin-left: 30%;
 }
