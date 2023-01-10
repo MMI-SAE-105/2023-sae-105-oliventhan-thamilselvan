@@ -15,11 +15,12 @@
             height: 100vh; /* hauteur de la fenêtre */
             background: #fff; /* couleur de fond */
             display: grid; /*grille (pour centrer) */
-            place-content: center; /*alignement au centre (V et H) */        
+            place-content: center; /*alignement au centre (V et H) */    
+            z-index: 10;    
         }
         .header__menuBtn {
             position: relative; /* pour appliquer z-index */
-            z-index: 10; /* pour que bouton soit au dessus du menu */
+            z-index: 20; /* pour que bouton soit au dessus du menu */
         }
         .noscroll,
         .noscroll body {
