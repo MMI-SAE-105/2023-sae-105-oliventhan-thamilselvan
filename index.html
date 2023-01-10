@@ -19,16 +19,17 @@
 <body>
     <!-- https://emmet.io/ -->
     <!-- header>h1{Test de menu} -->
-    <header>
+    <header class="header">
+        <h1 class="text_logo">L’art-conquête</h1>
+        <img class="flag_en" src="/public/icones/flag_en.webp" alt="">
         <button aria-controls="mainNav" 
         @click="menuIsOpen = ! menuIsOpen"
         class="header__menuBtn"
         >
-            menu
+           <img src="/public/icones/menu-open.webp" alt="">
         </button>
-        <h1>Test de menu</h1>
         <nav id="mainNav" 
-        x-show="menuIsOpen" 
+        x-show="menuIsOpen"
         x-transition.duration.800ms
         class="menu"
         >

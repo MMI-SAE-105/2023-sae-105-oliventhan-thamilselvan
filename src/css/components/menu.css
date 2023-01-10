@@ -13,9 +13,14 @@
     place-content: center; /*alignement au centre (V et H) */    
     z-index: 10;    
 }
+
+
 .header__menuBtn {
     position: relative; /* pour appliquer z-index */
     z-index: 20; /* pour que bouton soit au dessus du menu */
+    margin-top: 0;
+    background-color: #C6AE7F;
+    scale: 70%;
 }
 .menu_titles {
     list-style: none;
@@ -33,7 +38,6 @@
 
 .logo_menu {
     transform: scale(70%);
-    padding-right: 15%;
 }
 .noscroll,
 .noscroll body {

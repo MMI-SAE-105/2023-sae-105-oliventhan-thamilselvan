@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Voltaire&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&family=Voltaire&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Playball&family=Voltaire&display=swap');
+
+
+.header {
+    background-color: #C6AE7F;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_logo {
+    font-family: Voltaire;
+    font-size: 26px;
+    text-decoration: none;
+    margin-left: 5px;
+    z-index: 2px;
+}
+
+.flag_en {
+    width: 35.5px;
+    height: 24px;
+    margin-top: 5.3%;
+    margin-left: 30%;
+}
