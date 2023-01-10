@@ -94,12 +94,19 @@
         justify-content list-style margin none padding
         */
         .caroussel_liste-liens {
-        : ; /* aligne horizontalement les enfants */
-        : ; /* centre horizontalement les enfants */
-        : ; /* enlève les marges par défaut */
-        : ; /* enlève les padding par défaut */
-        : ; /* enlève les puces par défaut */
-        : ; /* espace entre les enfants */
+        /* aligne horizontalement les enfants */
+        display: flex; 
+        /* centre horizontalement les enfants */
+        flex: center; 
+        /* enlève les marges par défaut */
+        margin: 0; 
+        /* enlève les padding par défaut */
+        padding: 0; 
+        /* enlève les puces par défaut */
+        list-style: none;
+        /* espace entre les enfants */
+        justify-content: space-between;
+        gap: 1rem;
         }
     </style>
 </head>
