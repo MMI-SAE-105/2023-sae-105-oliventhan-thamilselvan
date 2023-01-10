@@ -19,6 +19,21 @@
 }
 .menu_titles {
     list-style: none;
+    font-family: Voltaire;
+    font-size: 26px;
+    line-height: 300%;
+    text-align: center;
+}
+
+.menu_link {
+    text-decoration: none;
+    color: black;
+    padding-right: 28px;
+}
+
+.logo_menu {
+    transform: scale(70%);
+    padding-right: 15%;
 }
 .noscroll,
 .noscroll body {
