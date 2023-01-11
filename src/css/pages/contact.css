@@ -1,0 +1,18 @@
+.row {
+    margin-left: 35px;
+    color: black;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 14px;
+    margin-left: 45px;
+    margin-right: 45px;
+    text-align: center;
+}
+
+.send_button {
+    color: white;
+    background-color: #2F2F2F;
+    margin-left: 55px;
+    margin-right: 55px;
+    border-radius: 8px;
+}
