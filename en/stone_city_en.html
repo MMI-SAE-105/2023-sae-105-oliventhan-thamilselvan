@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen,}">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'art-conquête</title>
+
+    <link rel="stylesheet" href="/src/css/vendors/normalize.css">
+    <link rel="stylesheet" href="/src/css/base/main.css">
+    <link rel="stylesheet" href="/src/css/layout/footer.css">
+    <link rel="stylesheet" href="/src/css/layout/header.css">
+    <link rel="stylesheet" href="/src/css/components/carrousel.css">
+    <link rel="stylesheet" href="/src/css/components/menu.css">
+    <link rel="stylesheet" href="/src/fonts/typography.css">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+
+</head>
+<body>
+    <!-- https://emmet.io/ -->
+    <!-- header>h1{Test de menu} -->
+    <header class="header">
+        <h1><a class="text_logo" href="/index.html">L’art-conquête</a></h1>
+        <div><a href="/index_en.html"><img class="flag_en" src="/public/icones/flag_en.webp" alt=""></a></div>
+
+        <button aria-controls="mainNav" 
+        @click="menuIsOpen = ! menuIsOpen"
+        class="header__menuBtn"
+        >
+           <img src="/public/icones/menu-open.webp" alt="">
+        </button>
+        <nav id="mainNav" 
+        x-show="menuIsOpen"
+        x-transition.duration.800ms
+        class="menu"
+        >
+            <ul class="menu_titles">
+                <li><a class="menu_link" href="/index.html">Accueil</a></li>
+                <li><a class="menu_link" href="/fr/regionalisme.html">Régionalisme</a></li>
+                <li><a class="menu_link" href="/fr/contact.html">Contact</a></li>
+                <li><a class="menu_link" href="/fr/artistes.html">Artistes</a></li>
+                <li><a class="menu_link" href="/fr/expo.html">EXPOSITION 2023</a></li>
+                <br>
+                <li><img class="logo_menu" src="/public/icones/logo_fondation.webp" alt=""></li>
+            </ul>
+        </nav>
+    </header>
+
+    <br>
+    <br>
+
+    <div class="frame"><a class="frame_color"><img class="frame_image" src="/public/img/stone_city.webp" alt="">
+        <h1 class="frame_title">Stone City, Iowa</h1>
+        <p class="frame_description">1930</p></a></div>
+
+        <br>
+
+        <img class="line" src="/public/icones/line.webp" alt="">
+
+        <br>
+        <br>
+
+   <h1 class="title1">Description</h1>
+
+        <br>
+
+        <h1 class="text">Stone City, Iowa is a 1930 painting by the American artist Grant Wood. It depicts the former boomtown of Stone City, Iowa. It was Wood's first major landscape painting. It is a study of a real place with which Wood was thoroughly familiar, but the landscape has been given fantastical curvy shapes, the trees are ornamental, and the bright surfaces are artificially patterned.
+
+            <br>
+            <br>
+
+            The town had been built for its limestone quarries. When the painting was made, the town was in rapid decline due to the development of Portland cement. The painting thus depicts the transition from industrialization and back to rural community. During the summers of 1932 and 1933, the town became the host of the Stone City Art Colony, which Wood was part of.
+
+            Stone City, Iowa was made the same year as Wood's American Gothic and both paintings were successes for the artist. Wood promoted his new style under the label of the "new movement".
+
+            The painting is located at the Joslyn Art Museum in Omaha, Nebraska.</h1>
+
+     <br>
+     <br>
+     <br>
+
+    </main>
+
+    <footer class="footer">
+
+        <br>
+
+        <div>
+            <a class="logo_footer">L'art-conquête</a>
+        </div>
+
+        <div class="footer_description2">
+            <p><a class="footer_link2" href="/fr/regionalisme.html">Régionalisme</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="footer_link2" href="/fr/contact.html">Contact</a></p>
+        </div>
+
+        <div class="footer_description3">
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="footer_link3" href="/fr/artistes.html">Artistes</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="footer_link2" href="/fr/expo.html">Exposition 2023</a></p>
+        </div>
+
+        <br>
+
+        <div class="footer_description">
+            <p>Oliventhan Thamilselvan C2</p>
+            <a class="footer_link" href="mailto:tsoliventhan@gmail.com">tsoliventhan@gmail.com</a>
+
+    <div class="footer_down">
+        <div><a href="https://www.instagram.com/oliv3nth4n/"><img class="logo_social1" src="/public/icones/instagram.webp" alt="logo insta"></a></div>
+        <div><a href="https://twitter.com/oliv3nth4n"><img class="logo_social2" src="/public/icones/twitter.webp" alt="logo twitter"></a></div>   
+        </div>
+    </div>
+        
+        <div class="footer_description">    
+            <p>Projet réalisé dans le cadre d'un exercice pédagogique au département <a class="footer_link" href="http://mmimontbeliard.com/">MMI de Montbéliard</a></p>
+            <br>
+        </div>
+        <div><a href="https://www.fondationcartier.com/en/"><img class="footer_logo" src="/public/icones/logo_fondation.webp" alt="Logo MMi"></a></div>
+
+        <br>
+
+    </footer>
+    
+</body>
+</html>
