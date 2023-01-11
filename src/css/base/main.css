@@ -53,3 +53,27 @@ body {
     margin-left: 8.5%;
     scale: 50%;
   }
+
+  .text {
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 29px;
+    margin-right: 29px;
+    line-height: 140%;
+  }
+  
+  .text1 {
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 29px;
+    margin-right: 29px;
+    line-height: 140%;
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  .text_bold {
+    font-weight: bold;
+  }
