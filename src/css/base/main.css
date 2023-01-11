@@ -84,3 +84,7 @@ body {
     text-decoration: none;
     font-family: "Open Sans";
   }
+
+  .map {
+    margin-left: 3%;
+  }
