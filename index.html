@@ -21,7 +21,7 @@
     <!-- header>h1{Test de menu} -->
     <header class="header">
         <h1><a class="text_logo" href="/index.html">L’art-conquête</a></h1>
-        <img class="flag_en" src="/public/icones/flag_en.webp" alt="">
+        <div><a href="/index_en.html"><img class="flag_en" src="/public/icones/flag_en.webp" alt=""></a></div>
 
         <button aria-controls="mainNav" 
         @click="menuIsOpen = ! menuIsOpen"
@@ -35,11 +35,11 @@
         class="menu"
         >
             <ul class="menu_titles">
-                <li><a class="menu_link" href="">Home</a></li>
-                <li><a class="menu_link" href="">Régionalisme</a></li>
-                <li><a class="menu_link" href="">Contact</a></li>
-                <li><a class="menu_link" href="">Auteurs</a></li>
-                <li><a class="menu_link" href="">EXPOSITION 2023</a></li>
+                <li><a class="menu_link" href="/index.html">Home</a></li>
+                <li><a class="menu_link" href="/fr/regionalisme.html">Régionalisme</a></li>
+                <li><a class="menu_link" href="/fr/contact.html">Contact</a></li>
+                <li><a class="menu_link" href="/fr/auteurs.html">Auteurs</a></li>
+                <li><a class="menu_link" href="/fr/expo.html">EXPOSITION 2023</a></li>
                 <br>
                 <li><img class="logo_menu" src="/public/icones/logo_fondation.webp" alt=""></li>
             </ul>
@@ -49,7 +49,7 @@
     <br>
     <br>
 
-    <div class="frame"><a class="frame_color" href="/en/gallery.html"><img class="frame_image" src="/public/img/american_gothic.webp" alt="">
+    <div class="frame"><a class="frame_color" href="/fr/regionalisme.html"><img class="frame_image" src="/public/img/american_gothic.webp" alt="">
         <h1 class="frame_title">Régionalisme</h1>
         <p class="frame_description">1925 - 1945</p></a></div>
 
@@ -80,12 +80,21 @@
      </p>
 
      <a href="/fr/expo.html"><h1 class="text1" >Plus d'informations</h1></a>
+     
+     <br>
+
+     <img class="line" src="/public/icones/line.webp" alt="">
+
+     <br>
+     <br>
+
+<h1 class="title1">Auteurs</h1>
+
+<br>
 
     <main>
 
         <br>
-        <br>
-
         
         <div class="carrousel" x-data="{
             hrefCourant: '#ecran-1',
@@ -101,32 +110,32 @@
             >
                 <div id="ecran-1" class="carrousel_ecran">
                     <figure>
-                        <img src="/public/img/carrousel_1.webp" alt="image ecran 1">
-                        <figcaption>&nbsp;&nbsp;Grant Wood</figcaption>
+                        <a href="/fr/grant_wood_fr.html"><img src="/public/img/carrousel_1.webp" alt="image ecran 1"></a>
+                        <figcaption class="text_carrousel">&nbsp;&nbsp;Grant Wood</figcaption>
                     </figure>
                 </div>
                 <div id="ecran-2" class="carrousel_ecran">
                     <figure>
-                        <img src="/public/img/carrousel_2.webp" alt="image ecran 2">
-                        <figcaption>&nbsp;&nbsp;Alan Stephens Foster</figcaption>
+                        <a href="/fr/alan_stephens_fr.html"><img src="/public/img/carrousel_2.webp" alt="image ecran 2"></a>
+                        <figcaption class="text_carrousel">&nbsp;&nbsp;Alan Stephens Foster</figcaption>
                     </figure>
                 </div>
                 <div id="ecran-3" class="carrousel_ecran">
                     <figure>
-                        <img src="/public/img/carrousel_3.webp" alt="image ecran 3">
-                        <figcaption>&nbsp;&nbsp;Thomas Hart Benton</figcaption>
+                        <a href="/fr/thomas_hart_fr.html"><img src="/public/img/carrousel_3.webp" alt="image ecran 3"></a>
+                        <figcaption class="text_carrousel">&nbsp;&nbsp;Thomas Hart Benton</figcaption>
                     </figure>
                 </div>
                 <div id="ecran-4" class="carrousel_ecran">
                     <figure>
-                        <img src="/public/img/carrousel_4.webp" alt="image ecran 4">
-                        <figcaption>&nbsp;&nbsp;Charles E. Burchfield</figcaption>
+                        <a href="/fr/charles_burchfield_fr.html"><img src="/public/img/carrousel_4.webp" alt="image ecran 4"></a>
+                        <figcaption class="text_carrousel">&nbsp;&nbsp;Charles E. Burchfield</figcaption>
                     </figure>
                 </div>
                 <div id="ecran-5" class="carrousel_ecran">
                     <figure>
-                        <img src="/public/img/carrousel_5.webp" alt="image ecran 5">
-                        <figcaption>&nbsp;&nbsp;Exposition 2023</figcaption>
+                        <a href="/fr/expo.html"><img src="/public/img/carrousel_5.webp" alt="image ecran 5"></a>
+                        <figcaption class="text_carrousel">&nbsp;&nbsp;Exposition 2023</figcaption>
                     </figure>
                     <br>
                     <br>
@@ -146,11 +155,11 @@
         </div>
 
         <div class="footer_description2">
-            <p><a class="footer_link2" href="/fr/A_propos.html">Régionalisme</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="footer_link2" href="/fr/Glossaire.html">Contact</a></p>
+            <p><a class="footer_link2" href="/fr/regionalisme.html">Régionalisme</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="footer_link2" href="/fr/contact.html">Contact</a></p>
         </div>
 
         <div class="footer_description3">
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="footer_link3" href="/fr/Contact.html">Auteurs</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="footer_link2" href="/fr/Autres_projets.html">Exposition 2023</a></p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="footer_link3" href="/fr/auteurs.html">Auteurs</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="footer_link2" href="/fr/expo.html">Exposition 2023</a></p>
         </div>
 
         <br>
