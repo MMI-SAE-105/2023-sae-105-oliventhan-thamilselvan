@@ -14,15 +14,14 @@
     <link rel="stylesheet" href="/src/css/components/menu.css">
     <link rel="stylesheet" href="/src/fonts/typography.css">
     <script defer src="https://unpkg.com/alpinejs"></script>
-    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
 </head>
 <body>
     <!-- https://emmet.io/ -->
     <!-- header>h1{Test de menu} -->
     <header class="header">
-        <h1><a class="text_logo" href="/index.html">L’art-conquête</a></h1>
-        <div><a href="/index_en.html"><img class="flag_en" src="/public/icones/flag_en.webp" alt=""></a></div>
+        <h1><a class="text_logo" href="/index_en.html">L’art-conquête</a></h1>
+        <div><a href="/fr/artistes.html"><img class="flag_en" src="/public/icones/flag_fr.webp" alt=""></a></div>
 
         <button aria-controls="mainNav" 
         @click="menuIsOpen = ! menuIsOpen"
@@ -36,11 +35,11 @@
         class="menu"
         >
             <ul class="menu_titles">
-                <li><a class="menu_link" href="/index.html">Accueil</a></li>
-                <li><a class="menu_link" href="/fr/regionalisme.html">Régionalisme</a></li>
-                <li><a class="menu_link" href="/fr/contact.html">Contact</a></li>
-                <li><a class="menu_link" href="/fr/artistes.html">Artistes</a></li>
-                <li><a class="menu_link" href="/fr/expo.html">EXPOSITION 2023</a></li>
+                <li><a class="menu_link" href="/index_en.html">Home</a></li>
+                <li><a class="menu_link" href="/en/regionalism.html">Regionalism</a></li>
+                <li><a class="menu_link" href="/en/contacten.html">Contact</a></li>
+                <li><a class="menu_link" href="/en/artists.html">Artists</a></li>
+                <li><a class="menu_link" href="/en/expoen.html">EXHIBITION 2023</a></li>
                 <br>
                 <li><img class="logo_menu" src="/public/icones/logo_fondation.webp" alt=""></li>
             </ul>
@@ -49,7 +48,7 @@
 
     <br>
     <br>
-    <h1 class="title1">Artistes</h1>
+    <h1 class="title1">Artists</h1>
     <br>
 
     <div class="accordeon">
@@ -85,11 +84,11 @@
         </div>
 
         <div class="footer_description2">
-            <p><a class="footer_link2" href="/fr/regionalisme.html">Régionalisme</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="footer_link2" href="/fr/contact.html">Contact</a></p>
+            <p><a class="footer_link2" href="/en/regionalism.html">Regionalism</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="footer_link2" href="/en/contacten.html">Contact</a></p>
         </div>
 
         <div class="footer_description3">
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="footer_link3" href="/fr/artistes.html">Artistes</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="footer_link2" href="/fr/expo.html">Exposition 2023</a></p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="footer_link3" href="/en/artists.html">Artists</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="footer_link2" href="/en/expoen.html">Exhibition 2023</a></p>
         </div>
 
         <br>
@@ -105,7 +104,7 @@
     </div>
         
         <div class="footer_description">    
-            <p>Projet réalisé dans le cadre d'un exercice pédagogique au département <a class="footer_link" href="http://mmimontbeliard.com/">MMI de Montbéliard</a></p>
+            <p>Project realized for a pedagogical exercise at  <a class="footer_link" href="http://mmimontbeliard.com/">MMI de Montbéliard</a></p>
             <br>
         </div>
         <div><a href="https://www.fondationcartier.com/en/"><img class="footer_logo" src="/public/icones/logo_fondation.webp" alt="Logo MMi"></a></div>
